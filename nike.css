@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#D0D4D5;
+    position: relative;
+}
+
+#nav{
+    height: 90px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 100px;
+    margin-right: 150px;
+    margin-left: 5px;
+
+}
+
+#nav1 h4{
+    margin-right: 65px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#nav2 i{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider{
+    width: 70%;
+    height:80%;
+    
+    position: absolute;
+    left: 15%;
+    top:15%;
+    /*top:55%;
+    transform: translate(0%,-50%);*/
+    
+}
+
+.text h1{
+    text-decoration: underline;
+}
+.text{
+    position:absolute;
+    width: 45rem;
+    height: 10rem;
+    bottom: 25%;
+    left: -10%;
+    font-family: sans-serif;
+    /*background-color: blue;*/
+    color: black;
+    font-size:larger;
+    z-index: 999;
+}
+
+.intro{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.imagecontainer{
+    position:absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+img{
+    
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/*new part*/
+
+section{
+    background-color: #D0D4D5;
+    
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.heading span{
+    color: rgb(252, 118, 69);
+}
+
+.product .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;    
+}
+
+.product .box-container .box{
+    border: 1rem solid rgba(0,0,0,.1);
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: #f9f9f9;
+    flex:1 1 26rem;
+}
+
+.product .box-container .content{
+    padding: 1rem;
+    
+}
+
+.product .box-container .box img{
+    height:300px;
+    
+    /*margin: 4rem 2rem;*/
+   /* transform: rotate(-35deg);
+    filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,.1));*/
+}
+
+/*.product .box-container .box:hover img{
+    transform: rotate(-35deg) scale(1.2);
+}*/
+
+.product .box-container .box .icon{
+    display:flex;
+    flex-flow:column;
+    position:absolute;
+    top: 0.5em;
+    left: 1rem;
+}
+
+.product .box-container .box .icon a{
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    background: white;
+    margin-top: 0.5rem;
+}
+
+.product .box-container .box .icon{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 0.5rem;
+    left: -10rem;
+}
+
+.product .box-container .box:hover .icon{
+    left: 1rem;
+}
+ 
+.product .box-container .box .icon a:hover{
+    color: orangered;
+    color: #fff;
+}
+.product .box-container .box .content h3{
+    color: #000;
+    font-size: 2.5rem;
+}
+.product .box-container .box .content .price{
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+
+.product .box-container .box .content .stars{
+    padding-bottom: 1rem;
+}
+.product .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: orangered;
+}
+
+/* footer*/
+
+.footer-container{
+    background-color: #000;
+    padding: 4rem 0 4rem 0;
+    color: white;
+}
+
+.footer{
+    width: 80%;
+    height: 40vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.top{
+    text-decoration: underline;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    margin-bottom:22px;
+}
+
+.footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
